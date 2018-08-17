@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JQCollectionViewBrickLayout_Example' do
+  pod 'JQCollectionViewBrickLayout', :path => '../'
+
+  target 'JQCollectionViewBrickLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
