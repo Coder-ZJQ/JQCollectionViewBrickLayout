@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		097B7EAEE476984CC34157F3FC155C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		17D04112F2E2F7A9FE873F3EA9CDD73C /* JQCollectionViewBrickLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E880C36D22AAEF192A2B1F2D6D78509D /* JQCollectionViewBrickLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D04112F2E2F7A9FE873F3EA9CDD73C /* JQCollectionViewBrickLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F757204E8AF3DFACEF591D358DFBF417 /* JQCollectionViewBrickLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7D85C220A9D32B5F0BA75E0C04DA14 /* JQCollectionViewBrickLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5A413ED2574F7CC6665152CEB5AB0 /* JQCollectionViewBrickLayout.m */; };
 		25902A605161A526763646397D3ED3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2F4DB21714CE5968E1B1F265A9156891 /* JQCollectionViewBrickLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42302CBC76CB03063A8FEDE9498C76 /* JQCollectionViewBrickLayout-dummy.m */; };
+		8725AAD858AAB4C8F4FE87621A03613C /* JQCollectionViewBrickLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDA1A89BC1A6BCBCE22A4662137428E /* JQCollectionViewBrickLayout-dummy.m */; };
 		87FDE06DEC48EF915C8254217597F906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		89BE3BC76B6CD1749F845E1DE9C33D0B /* Pods-JQCollectionViewBrickLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A75B7ADB9C64FA0C27CD3D2800ADAB26 /* Pods-JQCollectionViewBrickLayout_Tests-dummy.m */; };
 		90A273D243EC256609B2D65DAA5D5318 /* Pods-JQCollectionViewBrickLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 731149ADD28516148D7E4A402FF90C84 /* Pods-JQCollectionViewBrickLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A43A4EB3911CAA0706D07C01AC9E9812 /* Pods-JQCollectionViewBrickLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95F7220C1597EC8C651010984948394 /* Pods-JQCollectionViewBrickLayout_Example-dummy.m */; };
 		B1456A1F2234AD49483F5018B281A2AA /* Pods-JQCollectionViewBrickLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D90D0DAC06C5FBDD9604EBC24396B1D2 /* Pods-JQCollectionViewBrickLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1BA10A69F380620D6383DEEF36D6916 /* JQCollectionViewBrickLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39A980E4A4DCCFC0188EDB7EB1EBA4E5 /* JQCollectionViewBrickLayout.mm */; };
-		E1FCBB66061FB8FF9EFC2689D9FD5A42 /* JQCollectionViewBrickLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBE6389B4279C542FC380E736A04A39 /* JQCollectionViewBrickLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FCBB66061FB8FF9EFC2689D9FD5A42 /* JQCollectionViewBrickLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FC64AFAD0A1E4E817652E5D9E62D28 /* JQCollectionViewBrickLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,41 +39,41 @@
 
 /* Begin PBXFileReference section */
 		06EC017B2117E4BF2C43CEBF1794AFF5 /* Pods-JQCollectionViewBrickLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQCollectionViewBrickLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F4077B4280DF60A07F0709C884B524F /* JQCollectionViewBrickLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQCollectionViewBrickLayout.modulemap; sourceTree = "<group>"; };
+		0D4002EBC3A68DC458DDA4D75D727D10 /* JQCollectionViewBrickLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JQCollectionViewBrickLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BFB26E00E9CF23E80E6C76A244EC499 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C42302CBC76CB03063A8FEDE9498C76 /* JQCollectionViewBrickLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQCollectionViewBrickLayout-dummy.m"; sourceTree = "<group>"; };
 		1EF9C8724C392CC5D7829D3FBB9576AC /* Pods-JQCollectionViewBrickLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQCollectionViewBrickLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1F434CDDA43DAB20DDCF3205C82C12E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2153945A0DB5780A573324731B50C3AD /* Pods-JQCollectionViewBrickLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCollectionViewBrickLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		216E1C47E36B829F4E09CB3FC398AF05 /* Pods-JQCollectionViewBrickLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JQCollectionViewBrickLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39A980E4A4DCCFC0188EDB7EB1EBA4E5 /* JQCollectionViewBrickLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = JQCollectionViewBrickLayout.mm; path = JQCollectionViewBrickLayout/Classes/JQCollectionViewBrickLayout.mm; sourceTree = "<group>"; };
+		361715A14925892A5F40711DB6A80E1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405A44C5ABC984711ACA3D3C40837462 /* Pods-JQCollectionViewBrickLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCollectionViewBrickLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4278DC453F31D81B68115141D73A50C8 /* Pods-JQCollectionViewBrickLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQCollectionViewBrickLayout_Tests-resources.sh"; sourceTree = "<group>"; };
-		42BD0760D5CF023A976CE3F9CFBE5A71 /* JQCollectionViewBrickLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JQCollectionViewBrickLayout.podspec; sourceTree = "<group>"; };
 		469C55E6699C43240C6E76EC3B6A8546 /* Pods-JQCollectionViewBrickLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCollectionViewBrickLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4CAAEC462D286F4D4C3D5A6C7259EAD7 /* JQCollectionViewBrickLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JQCollectionViewBrickLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAAEC462D286F4D4C3D5A6C7259EAD7 /* JQCollectionViewBrickLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JQCollectionViewBrickLayout.framework; path = JQCollectionViewBrickLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CA1704D479D818797B3C43FC78DAB1 /* JQCollectionViewBrickLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCollectionViewBrickLayout-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		731149ADD28516148D7E4A402FF90C84 /* Pods-JQCollectionViewBrickLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQCollectionViewBrickLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		734FE92834A0E6E244EC55BA69A989BE /* Pods-JQCollectionViewBrickLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQCollectionViewBrickLayout_Example-resources.sh"; sourceTree = "<group>"; };
-		75D9DE99961D741A62540B9BDDDF7AC1 /* JQCollectionViewBrickLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCollectionViewBrickLayout-prefix.pch"; sourceTree = "<group>"; };
 		89309C7DFB4F53CAF1E912C97B7798DB /* Pods-JQCollectionViewBrickLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JQCollectionViewBrickLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8AC10BFB0C7DA30A7160EE8FA0F3219A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		938FB33E1E94BE483E7DF267DD72DF05 /* Pods-JQCollectionViewBrickLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQCollectionViewBrickLayout_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE1A483C62D3E410402F1E26616CBE5 /* Pods-JQCollectionViewBrickLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCollectionViewBrickLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1D5A413ED2574F7CC6665152CEB5AB0 /* JQCollectionViewBrickLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JQCollectionViewBrickLayout.m; path = JQCollectionViewBrickLayout/Classes/JQCollectionViewBrickLayout.m; sourceTree = "<group>"; };
 		A75B7ADB9C64FA0C27CD3D2800ADAB26 /* Pods-JQCollectionViewBrickLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQCollectionViewBrickLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		A7F1BE9C17817922D1603F723A88E6A4 /* JQCollectionViewBrickLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JQCollectionViewBrickLayout.modulemap; sourceTree = "<group>"; };
 		A95F7220C1597EC8C651010984948394 /* Pods-JQCollectionViewBrickLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JQCollectionViewBrickLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		AE9A8F4E9C45ED94213755447F59B6EF /* Pods-JQCollectionViewBrickLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JQCollectionViewBrickLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCC1DC17ABA0BBF519349056A23E1602 /* JQCollectionViewBrickLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQCollectionViewBrickLayout.xcconfig; sourceTree = "<group>"; };
+		B7FC64AFAD0A1E4E817652E5D9E62D28 /* JQCollectionViewBrickLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQCollectionViewBrickLayout.h; path = JQCollectionViewBrickLayout/Classes/JQCollectionViewBrickLayout.h; sourceTree = "<group>"; };
+		BEDA1A89BC1A6BCBCE22A4662137428E /* JQCollectionViewBrickLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JQCollectionViewBrickLayout-dummy.m"; sourceTree = "<group>"; };
 		C184649A80F76E3D92392D79B0796FCC /* Pods-JQCollectionViewBrickLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JQCollectionViewBrickLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		D8FE0D4F793512D1B4152CED8261759B /* Pods_JQCollectionViewBrickLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQCollectionViewBrickLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E4A374F20EE5AE90DFBD007805551A /* JQCollectionViewBrickLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JQCollectionViewBrickLayout.xcconfig; sourceTree = "<group>"; };
+		D8FE0D4F793512D1B4152CED8261759B /* Pods_JQCollectionViewBrickLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JQCollectionViewBrickLayout_Example.framework; path = "Pods-JQCollectionViewBrickLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90D0DAC06C5FBDD9604EBC24396B1D2 /* Pods-JQCollectionViewBrickLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JQCollectionViewBrickLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DD9A47F83A8C3488A54DE4D14C56BA7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E880C36D22AAEF192A2B1F2D6D78509D /* JQCollectionViewBrickLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCollectionViewBrickLayout-umbrella.h"; sourceTree = "<group>"; };
-		EB0C15564DEE2C36FF2BC116FCD748D7 /* Pods_JQCollectionViewBrickLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQCollectionViewBrickLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBBE6389B4279C542FC380E736A04A39 /* JQCollectionViewBrickLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JQCollectionViewBrickLayout.h; path = JQCollectionViewBrickLayout/Classes/JQCollectionViewBrickLayout.h; sourceTree = "<group>"; };
+		EB0C15564DEE2C36FF2BC116FCD748D7 /* Pods_JQCollectionViewBrickLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JQCollectionViewBrickLayout_Tests.framework; path = "Pods-JQCollectionViewBrickLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0D448FF9D547019734872F89F39F2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F515F9913FCFBAC1FAA02058F5481737 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F757204E8AF3DFACEF591D358DFBF417 /* JQCollectionViewBrickLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JQCollectionViewBrickLayout-umbrella.h"; sourceTree = "<group>"; };
 		FE7302AFF9262D62CB8D58A0B3D6B758 /* Pods-JQCollectionViewBrickLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JQCollectionViewBrickLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FF797683D66F8BC8012EDAD0F2EE4854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,35 @@
 		13ED1ACCC3E4FBA5F86601614B4103BB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				628A0DC8E772A6B911D34D17032C814E /* JQCollectionViewBrickLayout */,
+				4F9C1E127D3DFB32FEFF18C1F2F97E18 /* JQCollectionViewBrickLayout */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B6C1F27AC348FADE68250BE2ED2339A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				361715A14925892A5F40711DB6A80E1C /* Info.plist */,
+				A7F1BE9C17817922D1603F723A88E6A4 /* JQCollectionViewBrickLayout.modulemap */,
+				C1E4A374F20EE5AE90DFBD007805551A /* JQCollectionViewBrickLayout.xcconfig */,
+				BEDA1A89BC1A6BCBCE22A4662137428E /* JQCollectionViewBrickLayout-dummy.m */,
+				60CA1704D479D818797B3C43FC78DAB1 /* JQCollectionViewBrickLayout-prefix.pch */,
+				F757204E8AF3DFACEF591D358DFBF417 /* JQCollectionViewBrickLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JQCollectionViewBrickLayout";
+			sourceTree = "<group>";
+		};
+		4F9C1E127D3DFB32FEFF18C1F2F97E18 /* JQCollectionViewBrickLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B7FC64AFAD0A1E4E817652E5D9E62D28 /* JQCollectionViewBrickLayout.h */,
+				A1D5A413ED2574F7CC6665152CEB5AB0 /* JQCollectionViewBrickLayout.m */,
+				FE85FB6AE5E7FA7E1AEF181E82D4275F /* Pod */,
+				3B6C1F27AC348FADE68250BE2ED2339A /* Support Files */,
+			);
+			name = JQCollectionViewBrickLayout;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		545471C4DDEF80DCA9DE31AB4BCEA018 /* Targets Support Files */ = {
@@ -119,18 +145,6 @@
 				A4EEED57B77EDA34994D87978ECE65C0 /* Pods-JQCollectionViewBrickLayout_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		628A0DC8E772A6B911D34D17032C814E /* JQCollectionViewBrickLayout */ = {
-			isa = PBXGroup;
-			children = (
-				EBBE6389B4279C542FC380E736A04A39 /* JQCollectionViewBrickLayout.h */,
-				39A980E4A4DCCFC0188EDB7EB1EBA4E5 /* JQCollectionViewBrickLayout.mm */,
-				D8B57CE74B38698E0EBF2D4F34931962 /* Pod */,
-				B1994E68CE4FE3EF7E50159A78C9DDF7 /* Support Files */,
-			);
-			name = JQCollectionViewBrickLayout;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7C056709F4725D5C626B499063653283 /* Products */ = {
@@ -172,20 +186,6 @@
 			path = "Target Support Files/Pods-JQCollectionViewBrickLayout_Tests";
 			sourceTree = "<group>";
 		};
-		B1994E68CE4FE3EF7E50159A78C9DDF7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F434CDDA43DAB20DDCF3205C82C12E1 /* Info.plist */,
-				0F4077B4280DF60A07F0709C884B524F /* JQCollectionViewBrickLayout.modulemap */,
-				BCC1DC17ABA0BBF519349056A23E1602 /* JQCollectionViewBrickLayout.xcconfig */,
-				1C42302CBC76CB03063A8FEDE9498C76 /* JQCollectionViewBrickLayout-dummy.m */,
-				75D9DE99961D741A62540B9BDDDF7AC1 /* JQCollectionViewBrickLayout-prefix.pch */,
-				E880C36D22AAEF192A2B1F2D6D78509D /* JQCollectionViewBrickLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JQCollectionViewBrickLayout";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,16 +200,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D8B57CE74B38698E0EBF2D4F34931962 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				42BD0760D5CF023A976CE3F9CFBE5A71 /* JQCollectionViewBrickLayout.podspec */,
-				DD9A47F83A8C3488A54DE4D14C56BA7A /* LICENSE */,
-				FF797683D66F8BC8012EDAD0F2EE4854 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		E6B1DACE52335F868854781397F30DBE /* Pods-JQCollectionViewBrickLayout_Example */ = {
@@ -228,6 +218,16 @@
 			);
 			name = "Pods-JQCollectionViewBrickLayout_Example";
 			path = "Target Support Files/Pods-JQCollectionViewBrickLayout_Example";
+			sourceTree = "<group>";
+		};
+		FE85FB6AE5E7FA7E1AEF181E82D4275F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D4002EBC3A68DC458DDA4D75D727D10 /* JQCollectionViewBrickLayout.podspec */,
+				8AC10BFB0C7DA30A7160EE8FA0F3219A /* LICENSE */,
+				F515F9913FCFBAC1FAA02058F5481737 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 668E2C7F6E6576EB542484B27288F7E2 /* Build configuration list for PBXNativeTarget "JQCollectionViewBrickLayout" */;
 			buildPhases = (
-				943335379830E5F0D9BC9F40C8D52721 /* Sources */,
+				A2571AA35BD517F4F1B1F7369A2E6603 /* Sources */,
 				07B6AA93D00DBB750092BC217599C693 /* Frameworks */,
 				914F5AFCF80E41ED538277B7CCCC83F5 /* Headers */,
 			);
@@ -359,12 +359,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		943335379830E5F0D9BC9F40C8D52721 /* Sources */ = {
+		A2571AA35BD517F4F1B1F7369A2E6603 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4DB21714CE5968E1B1F265A9156891 /* JQCollectionViewBrickLayout-dummy.m in Sources */,
-				B1BA10A69F380620D6383DEEF36D6916 /* JQCollectionViewBrickLayout.mm in Sources */,
+				8725AAD858AAB4C8F4FE87621A03613C /* JQCollectionViewBrickLayout-dummy.m in Sources */,
+				1A7D85C220A9D32B5F0BA75E0C04DA14 /* JQCollectionViewBrickLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 /* Begin XCBuildConfiguration section */
 		050AA6E2ED2618A3B456DF628B2CBB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCC1DC17ABA0BBF519349056A23E1602 /* JQCollectionViewBrickLayout.xcconfig */;
+			baseConfigurationReference = C1E4A374F20EE5AE90DFBD007805551A /* JQCollectionViewBrickLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -418,7 +418,7 @@
 		};
 		09940A90105E170870FCC0F3FD587830 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCC1DC17ABA0BBF519349056A23E1602 /* JQCollectionViewBrickLayout.xcconfig */;
+			baseConfigurationReference = C1E4A374F20EE5AE90DFBD007805551A /* JQCollectionViewBrickLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
