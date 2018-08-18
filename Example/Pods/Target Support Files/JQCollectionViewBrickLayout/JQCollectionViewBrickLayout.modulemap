@@ -1,0 +1,6 @@
+framework module JQCollectionViewBrickLayout {
+  umbrella header "JQCollectionViewBrickLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

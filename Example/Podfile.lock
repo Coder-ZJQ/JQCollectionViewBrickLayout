@@ -1,0 +1,16 @@
+PODS:
+  - JQCollectionViewBrickLayout (0.1.0)
+
+DEPENDENCIES:
+  - JQCollectionViewBrickLayout (from `../`)
+
+EXTERNAL SOURCES:
+  JQCollectionViewBrickLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQCollectionViewBrickLayout: fb94d5a8ac0543afd30c869fd3baab7aa5bff906
+
+PODFILE CHECKSUM: 8f51ee72d1fcfd3ec473c002b1ef482fe054a1a0
+
+COCOAPODS: 1.5.3
